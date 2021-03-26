@@ -36,9 +36,14 @@ select * from user order by time desc;
 <img width="448" alt="截圖 2021-03-24 下午10 19 39" src="https://user-images.githubusercontent.com/76401750/112325901-08582980-8cef-11eb-9463-ed23e86d2bec.png">
 
 #5.使用 SELECT 指令取得 user 資料表中第 2 ~ 4 共三筆資料，並按照 time 欄位，由近到遠排序。
-select * from user where (id>1 and id<5) order by time desc;
+新資料表：
 
-<img width="503" alt="截圖 2021-03-24 下午10 23 12" src="https://user-images.githubusercontent.com/76401750/112326481-86b4cb80-8cef-11eb-9ddc-624217162620.png">
+<img width="430" alt="截圖 2021-03-26 下午7 41 44" src="https://user-images.githubusercontent.com/76401750/112626533-4da16600-8e6b-11eb-8e3e-4c06622a5f49.png">
+
+select * from user order by time desc limit 1,3;
+<img width="436" alt="截圖 2021-03-26 下午7 41 19" src="https://user-images.githubusercontent.com/76401750/112626492-3e221d00-8e6b-11eb-8d36-012f55a01244.png">
+
+
 
 #6.使用 SELECT 指令取得欄位 username 是 ply 的使用者資料。
 select * from user where username='ply';
