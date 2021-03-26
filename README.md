@@ -41,6 +41,7 @@ select * from user order by time desc;
 <img width="430" alt="截圖 2021-03-26 下午7 41 44" src="https://user-images.githubusercontent.com/76401750/112626533-4da16600-8e6b-11eb-8e3e-4c06622a5f49.png">
 
 select * from user order by time desc limit 1,3;
+
 <img width="436" alt="截圖 2021-03-26 下午7 41 19" src="https://user-images.githubusercontent.com/76401750/112626492-3e221d00-8e6b-11eb-8d36-012f55a01244.png">
 
 
